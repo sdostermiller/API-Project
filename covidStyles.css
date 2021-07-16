@@ -1,0 +1,77 @@
+body{
+    background-image: url("./assets/covidpic.png");
+    background-repeat: repeat;
+    background-size: 200px;
+    background-color: gray;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+
+
+h1 {
+    text-align: center;
+    font-style: bold;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2 {
+    text-align: center;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#flag {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#countryName {
+    text-align: center;
+    font-size: 40px;
+    font-style: bold;
+    color: darkred;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+#confirmedCases {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+#confirmedCases.h1 {
+    align-content: center;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.buttons {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.progress {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.progress-key {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.reset {
+    width: 60%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
